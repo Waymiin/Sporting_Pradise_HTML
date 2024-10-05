@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sporting Paradise | Cart</title>
+
+<style>
+body {
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color: skyblue;
+}
+
+.active {
+  background-color: skyblue;
+}
+</style>
+<body>
+
+<ul>
+
+<li><a href="index.html" target="_blank">Home</a></li>
+
+<li>  <a href="Men.html" target="_blank">Men</a></li>
+
+<li>  <a href="Women.html" target="_blank">Women</a></li>
+
+<li><a href="NF.html" target="_blank">New & Features </a></li>
+
+<li>  <a href="Kids.html" target="_blank">Kids</a></li>
+
+</ul>
+
+
+<hr>
+<div>
+<p style="text-align:center;"><a href="index.html" target="_blank" title="Home Page"><img src="1102 SP LOGO.jpg" alt="SP LOGO" style="width:170px;height:170px;"></a>
+</div>
+
+<body>
+<div class="content">
+    <div class="header">
+      <h1 style="color:gray;font-family:Times New Roman;text-align:center;"><b style="color:black;">S</b>porting <b style="color:black;">P</b>aradise</h1>
+    </div>
+
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7437e33d-fcc8-46a6-82d4-16ed34370b6f/air-max-97-shoes-B2TV3Z.png" style="height:350px; width:350px;" alt="Image 1">
+<p><b style="font-family:Times New Roman;font-size:200%;">Nike Air Max 97</b></p>
+      <span style="font-size:140%;">RM 729</span>
+<p style="font-size:140%;">Sustainable materials | 1 color (white)</p>
+    </div>
+<br>
+<br>
+<p style="text-align:left;"><a href="Payment.html" title="Check It Out"><img src="https://i1.wp.com/www.helpingwritersbecomeauthors.com/wp-content/uploads/2015/03/Check-It-Out-Button.png" alt="Check Out" style="width:300px;height:90px;"></p>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <h1><b style="color:white;">Trends are fleeting, Classic are infinity!</h1>
+<hr>
+  <p style="font-size:60px;"><b>Get out there and the world is yours</b></p> 
+</div>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<font face="cinzel" size="5">
+<p style="text-align:left;">   <a href="newJoin_Us.html" target="_blank">JOIN US | <a href="mailto:j22038911@student.newinti.edu.my">Find Us Here Via Email ! </a> </a> </p>
+</font>
+<hr>
+</body>
+</head>
+</html>
