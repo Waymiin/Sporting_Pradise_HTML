@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sporting Paradise | New & Features</title>
+
+<style>
+body {
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color: skyblue;
+}
+
+.active {
+  background-color: skyblue;
+}
+</style>
+<body>
+
+<ul>
+
+<li><a href="index.html" target="_blank">Home</a></li>
+
+<li>  <a href="Men.html" target="_blank">Men</a></li>
+
+<li>  <a href="Women.html" target="_blank">Women</a></li>
+
+<li><a href="NF.html" target="_blank">New & Features </a></li>
+
+<li>  <a href="Kids.html" target="_blank">Kids</a></li>
+
+<p style="text-align:right;"><a href="Cart.html" target="_blank" title="cart"><img src="http://cdn.onlinewebfonts.com/svg/img_290616.svg" alt="cart" style="width:60px;height:60px;"></a>
+</ul>
+
+
+<hr>
+<div>
+<p style="text-align:center;"><a href="index.html" target="_blank" title="Home Page"><img src="1102 SP LOGO.jpg" alt="SP LOGO" style="width:170px;height:170px;"></a>
+</div>
+
+<body>
+<div class="content">
+    <div class="header">
+      <h1 style="color:gray;font-family:Times New Roman;text-align:center;"><b style="color:black;">S</b>porting <b style="color:black;">P</b>aradise</h1>
+    </div>
+
+  <style>
+    .center-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 120vh; /* Optional: Adjust the height as needed */
+    }
+    
+    .image-container {
+      flex-basis: 25%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .image-container span {
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+
+
+  <div class="center-images">
+<div class="image-container">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ffcb4c00-52c8-4169-a8f8-30253092515e/tempo-running-shorts-JxDWvp.png" alt="Image 1">
+<p><b style="font-family:Times New Roman;font-size:140%;">Nike Tempo</b></p>
+      <span>RM 729</span>
+<p>Women's Running Shorts | 1 color</p>
+<button onclick="addToCart('Women\'s Running Shorts | Green | RM 99')">Add to Cart</button>
+    </div>
+<div class="image-container">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/444f82ef-476c-4cb8-9ce4-4315a3da9f6b/jordan-apex-bucket-hat-lxJ3Hs.png" alt="Image 2">
+<p><b style="font-family:Times New Roman;font-size:140%;">Jordan Apex</b></p>
+      <span>RM 119</span>
+<p>Bucket Hat | 1 color</p>
+<button onclick="addToCart('Bucket Hat | Black | RM 119')">Add to Cart</button>
+    </div>
+
+<div class="image-container">
+    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dd3a7d3e-eb46-4b0f-9491-34238d65fc5e/academy-team-football-duffel-bag-n2NvdL.png" alt="Image 3">
+<p><b style="font-family:Times New Roman;font-size:140%;">Nike Academy Team</b></p>
+<span>RM 225</span>
+<p>Football Duffel Bag (Large, 95L) | 1 color</p>
+<button onclick="addToCart('Football Duffel Bag (Large, 95L) | Black | RM 225')">Add to Cart</button>
+    </div>
+
+<div class="image-container">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7869f931-f85b-42e9-8022-8e8f513c742c/fc-barcelona-strike-football-XV2qHm.png" alt="Image 4">
+<p><b style="font-family:Times New Roman;font-size:140%;">F.C. Barcelona Strike</b></p>
+      <span>RM 125</span>
+<p>Football | 1 color</p>
+<button onclick="addToCart('F.C. Barcelona Strike Football | BlueRed | RM 125')">Add to Cart</button>
+    </div>
+
+<div class="image-container">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/90ddf5b2-8a23-42aa-8385-a3f076d7ca95/fc-barcelona-max90-football-t-shirt-4d7n8T.png" alt="Image 5">
+<p><b style="font-family:Times New Roman;font-size:140%;">Men's Nike Max90 Football T-Shirt</b></p>
+      <span>RM 139</span>
+<p>F.C. Barcelona | 1 color</p>
+<button onclick="addToCart('Men\'s Nike Max90 Football T-Shirt | White | RM 139')">Add to Cart</button>
+    </div>
+
+<div class="image-container">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/054bc57a-9909-4347-acda-226e2aac3e27/rafa-dri-fit-adv-7-tennis-shorts-3C76pr.png" alt="Image 6">
+      <p><b style="font-family:Times New Roman;font-size:140%;">Men's Dri-FIT ADV 7 Tennis Shorts</b></p>
+      <span>RM 259</span>
+<p>Sustainable Materials | 1 color</p>
+<button onclick="addToCart('Men\'s Dri-FIT ADV 7 Tennis Shorts | Khaki | RM 259')">Add to Cart</button>
+    </div>
+
+<div class="image-container">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/df6c86d2-7583-45ff-ac07-6572edc5d7bd/acg-outdoor-cushioned-crew-socks-wklxjC.png" alt="Image 7">
+<p><b style="font-family:Times New Roman;font-size:140%;">Nike ACG</b></p>
+<span>RM 99</span>
+<p>Outdoor Cushioned Crew Socks | 1 color</p>
+<button onclick="addToCart('Outdoor Cushioned Crew Socks | White | RM 99')">Add to Cart</button>
+    </div>
+
+<div class="image-container">
+      <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/60f2636d-4092-444b-aaca-5f15bf0ed907/revolution-6-road-running-shoes-vjrrwc.png" alt="Image 8">
+<p><b style="font-family:Times New Roman;font-size:140%;">Nike Revolutions 6</b></p>
+      <span>RM 225</span>
+<p>Women's Road Running Shoes | 1 color </p>
+<button onclick="addToCart('Women\'s Road Running Shoes | White | RM 225')">Add to Cart</button>   </div> 
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<br>
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1><b style="color:white;">Trends are fleeting, Classic are infinity!</h1>
+<hr>
+  <p style="font-size:60px;"><b>Get out there and the world is yours</b></p> 
+</div>
+
+<font face="cinzel" size="5">
+<p style="text-align:left;">   <a href="newJoin_Us.html" target="_blank">JOIN US | <a href="mailto:j22038911@student.newinti.edu.my">Find Us Here Via Email ! </a> </a> </p>
+</font>
+<hr>
+</body>
+</head>
+</html>
