@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sporting Paradise | Check Out</title>
+
+<style>
+body {
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color: skyblue;
+}
+
+.active {
+  background-color: skyblue;
+}
+</style>
+<body>
+
+<ul>
+
+<li><a href="file:///C:/Users/Tan%20Jun%20Xiong/Desktop/index.html"target="_blank">Home</a></li>
+
+<li>  <a href="file:///C:/Users/Tan%20Jun%20Xiong/Desktop/Men.html"target="_blank">Men</a></li>
+
+<li>  <a href="file:///C:/Users/Tan%20Jun%20Xiong/Desktop/Women.html"target="_blank">Women</a></li>
+
+<li><a href="file:///C:/Users/Tan%20Jun%20Xiong/Desktop/NF.html"target="_blank">New & Features </a></li>
+
+<li>  <a href="file:///C:/Users/Tan%20Jun%20Xiong/Desktop/Kids.html"target="_blank">Kids</a></li>
+
+<p style="text-align:right;"><a href="file:///C:/Users/Tan%20Jun%20Xiong/Desktop/Cart.html"target="_blank"title="cart"><img src="http://cdn.onlinewebfonts.com/svg/img_290616.svg" alt="cart" style="width:60px;height:60px;"></a>
+</ul>
+
+
+<hr>
+<div>
+<p style="text-align:center;"><a href="file:///C:/Users/Tan%20Jun%20Xiong/Desktop/index.html"target="_blank"title="Home Page"><img src="1102 SP LOGO.jpeg" alt="SP LOGO" style="width:170px;height:170px;"></a>
+</div>
+<body>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color:;
+    }
+    
+    .content {
+      padding: 0px;
+      color: black;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .header h1 {
+      margin: 0;
+    }
+
+    .textbox {
+      width: 300px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+  </style>
+<div class="header">
+            <h1 style="font-family:Times New Roman;color:gray;"><b style="color:black;">S</b>porting <b style="color:black;">P</b>aradise</h1>
+    </div>
+  
+  <fieldset style="color:black;text-align:center;padding:100px;">
+    <legend><b>Your Details</b></legend>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="Name" class="textbox" placeholder="Full Name" size="38" autofocus><br><br>
+<label for="email">Email:</label><br>
+  <input type="text" id="email" name="Email" class="textbox" placeholder="123@example.com" size="38" required><br><br>
+<p>Address:</p>
+<form action="/action_page.php"  autocomplete="on">
+<textarea name="address" rows="5" cols="40" class="textbox" required></textarea>
+  <br>
+</form>
+<br>
+<form action="/action_page.php" autocomplete="on">
+  <label for="state">Choose Your State:</label><br>
+  <select id="state" name="state" class="textbox" required>
+    <option value="pahang">Pahang</option>
+    <option value="penang">Penang</option>
+    <option value="kedah">Kedah</option>
+    <option value="johor">Johor</option>
+    <option value="sabah">Sabah</option>
+    <option value="negeri sembilan">Negeri Sembilan</option>
+    <option value="terengganu">Terengganu</option>
+    <option value="perak">Perak</option>
+    <option value="selangor">Selangor</option>
+    <option value="perlis">Perlis</option>
+    <option value="kelantan">Kelantan</option>
+    <option value="malacca">Malacca</option>
+    <option value="sarawak">Sarawak</option>
+  </select><br><br>
+<p>City:</p>
+<form action="/action_page.php" autocomplete="on">
+  <input list="city" name="City" class="textbox" required>
+  <datalist id="city">
+    <option value="Kuching">
+    <option value="Johor Bahru">
+    <option value="Ipoh">
+    <option value="Putrajaya">
+    <option value="Malacca">
+    <option value="Lota Kinabalu">
+    <option value="Kuantan">
+    <option value="Shah Alam">
+    <option value="Mentakab">
+    <option value="Alor Setar">
+    <option value="Petaling Jaya">
+    <option value="Klang">
+    <option value="Termeloh">
+    <option value="Seremban">
+    <option value="Subang Jaya">
+    <option value="Muar">
+    <option value="Sendakan">
+    <option value="Kuala Kangsar">
+    <option value="Tawau">
+    <option value="Teluk Intan">
+    <option value="Sibu">
+    <option value="Port Dickson">
+    <option value="Semporna">
+    <option value="Segamat District">
+    <option value="Taiping">
+    <option value="Bintulu">
+  </datalist><br><br>
+<label for="postcode">Postcode:</label><br>
+  <input type="text" id="postcode" name="Postcode" size="20" class="textbox" required><br><br>
+
+</form>
+</fieldset>
+<fieldset style="color:black;text-align:center;padding:100px;">
+<legend><b>Your Card Details</b></legend>
+ <p>Type of Card:</p>
+<form action="/action_page.php" autocomplete="on">
+  <input list="type of card" name="Type of Card" class="textbox">
+  <datalist id="type of card">
+    <option value="VISA">
+    <option value="MASTERCARD">
+    <option value="AMERICAN EXPRESS">
+    <option value="UNIONPAY">
+</datalist><br><br>
+<label for="credit card number">Credit Card Number:</label><br>
+  <input type="text" id="credit card number" name="Credit Card Number" placeholder="x-xxx-xxxx-xx" size="20" class="textbox"><br><br>
+<p>Type of Bank:</p>
+<form action="/action_page.php" autocomplete="on">
+  <input list="type of bank" name="Type of Bank" class="textbox">
+  <datalist id="type of bank">
+    <option value="Affin Bank">
+    <option value="Alliance Bank">
+    <option value="Am Bank">
+    <option value="CIMB Bank">
+   <option value="Hong Leong Bank">
+   <option value="MayBank">
+   <option value="Public Bank">
+   <option value="RHB Bank">
+</datalist><br><br>
+<label for="cvv">CVV:</label><br>
+  <input type="text" id="cvv" name="CVV" placeholder="XXX" size="20" class="textbox"><br><br>
+<p>Expiry Month & Years:</p>
+<form action="/action_page.php" autocomplete="on">
+  <input type="date" id="datemax" name="datemax" max="2030-12-31" size="100" class="textbox"><br><br>
+</form>
+
+</fieldset>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button3 {background-color: darkblue;} /Continue to Checkout/
+
+</style>
+
+<style>
+        .checkout-button {
+            background-color: skyblue;
+            color: black;
+            padding: 10px 30px;
+            cursor: pointer;
+            font-size:150%;
+        }
+    </style>
+    <script>
+        function displaySuccess() {
+            alert("Successfully Checked Out ! Click The LOGO Back To The Home Page");
+        }
+    </script>
+
+<p style="text-align: center;font-family:Times New Roman"    <button class="checkout-button" onclick="displaySuccess()"><b>Continue to Check Out</b></button></p>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<br>
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1><b style="color:white;">Trends are fleeting, Classic are infinity!</h1>
+<hr>
+  <p style="font-size:60px;"><b>Get out there and the world is yours</b></p> 
+</div>
+<font face="cinzel" size="5">
+<p style="text-align:left;">   <a href="file:///C:/Users/Tan%20Jun%20Xiong/Desktop/newJoin%20Us.html"target="_blank">JOIN US | <a href="mailto:j22038911@student.newinti.edu.my">Find Us Here Via Email ! </a> </a> </p>
+</font>
+<hr>
+</body>
+</head>
+</html>
